@@ -1,4 +1,6 @@
-## FORECASTING REAL ESTATE PRICES USING TIME SERIES ANALYSIS
+![photo_realstate](images/photo_realstate.jpeg)
+
+## Forecasting Real Estate Prices Using Time Series Analysis
 
 ### Executive Summary
 
