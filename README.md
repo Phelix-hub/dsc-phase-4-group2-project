@@ -64,8 +64,8 @@ Zipcode 10021,10011, 10014, 10128 in New York has properties with the highest va
 As observed, the percentage of return on investents for the top ten states had a crash in 2008 to 2012 and then from there they all have an upward linear trend. This also depicts the rising trent has been from 2012 onwards meaning 2018 remains highest in terms of investments returns.
 
 ***
-### Data preprocessing
-Prior to modeling, a thorough assessment of data stationarity will be conducted using the following methods:
+### Data preprocessing for Modelling
+Prior to modeling, a thorough assessment of data stationarity was conducted using the following methods:
 
 1. Dickey-Fuller Test: The Dickey-Fuller test will be employed to assess the stationarity of the data. This statistical test helps determine if a unit root is present in the series, which is indicative of non-stationarity.
 
