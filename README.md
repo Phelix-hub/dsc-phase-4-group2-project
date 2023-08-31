@@ -43,7 +43,7 @@ The dataset covers a significant time period (April 1996 to April 2018), allowin
 The data was converted from a wide format to a long format before analysis.
 this stage of the analysis focused on such aspects as:
 
-#### [distribution of zip codes per County]
+#### distribution of zip codes per County
 
 ![zipcode.png](images/zipcode.png)
 Based on the bar graph above, this shows that Los Angeles is the most popular county with around 70000 zipcodes.Most of the other counties range between 30000 and 50000 zipcodes.
