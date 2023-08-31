@@ -1,4 +1,4 @@
-![photo_realstate](images/real-estate.JPG)
+![photo_realstate](images/real-estate.png)
 
 ## Forecasting Real Estate Prices Using Time Series Analysis
 
