@@ -4,7 +4,7 @@
 ### Executive Summary
 
 ***
-### Business Understanding
+### 1. Business Understanding
  #### [1.1 Background](##Background)
 In a constantly evolving real estate landscape, various elements, including economic shifts, population dynamics, market emotions, and regulatory shifts, converge to shape market trends. Acknowledging this complexity, the Kar-Dak Investment Group acknowledges the strategic advantage of harnessing data science methodologies to proactively uncover lucrative investment prospects.
 #### [1.2 Business Problem]( Business-Problem)
@@ -17,7 +17,7 @@ This Project aims at answering the question:
 2. To develop time series models to forecast real estate prices for different zip codes over various time horizons.
 3. To establish cities that are optimal for both short-term and long-term investment
 ***
-### Data Understanding
+### 2. Data Understanding
 Our dataset was obtained from zillow research website which ontained real state data. The key columns in the dataset are as follows:
 
 `RegionName` - This is the ranking done based on the size of the Region.
@@ -39,8 +39,8 @@ Our dataset was obtained from zillow research website which ontained real state 
 The dataset covers a significant time period (April 1996 to April 2018), allowing for the exploration of long-term trends and capturing various market conditions. It provides a valuable resource for conducting time series analysis and developing predictive models to forecast prices
 
 ***
-### Exploratory Data Analysis
-#### [Data Conversion](#Data-Conversion)
+### 3. Exploratory Data Analysis
+#### 3.1 [Data Conversion](#Data-Conversion)
 The data was converted from a wide format to a long format before analysis.
 this stage of the analysis focused on such aspects as:
 
@@ -65,7 +65,7 @@ Zipcode 10021,10011, 10014, 10128 in New York has properties with the highest va
 As observed, the percentage of return on investents for the top ten states had a crash in 2008 to 2012 and then from there they all have an upward linear trend. This also depicts the rising trent has been from 2012 onwards meaning 2018 remains highest in terms of investments returns.
 
 ***
-### Data preprocessing for Modelling
+### 4. Data preprocessing for Modelling
 Prior to modeling, a thorough assessment of data stationarity was conducted using the following methods:
 
 1. Dickey-Fuller Test: The Dickey-Fuller test was employed to assess the stationarity of the data. This statistical test helps determine if a unit root is present in the series, which is indicative of non-stationarity.
@@ -76,7 +76,7 @@ Further,  a differencing technique was applied to get rid of non-stationarity. D
 
 
 ***
-### Modelling
+### 5. Modelling
 The goal of modeling is to provide a conceptual and organized framework that helps in making predictions or decisions based on the data.
 Since the aim is to identify the top five zipcodes to invest in, five different models for each of the top five zipcodes were developed to help investers forecast their prices and thus give the them clear path to make informed decision.
 
@@ -107,7 +107,7 @@ The model's performance was evaluated using Mean Squared Error. it was noted to 
 Once the model was evaluated and deemed satisfactory, it was used to make future predictions as below.
 ![forecasting.png](images/forecasting.png)
 As can be seen on the graph, zipcode 15201 has the highest return on investment followed by zipcodes 11222 and 11216. zipcode 94301 has the lowest return on investment.
-### Conclusion
+### 6. Conclusion
 **Comparative Analysis of the Forecasting Models**
 The analysis presented a comprehensive comparison of three forecasting models: Autoregressive Integrated Moving Average (SARIMA), and Baseline ARIMA. Each model was assessed based on their predictive performance, statistical significance of coefficients, and alignment with historical trends. Below is a summary of the findings:
 
@@ -126,7 +126,7 @@ In conclusion, all two models showcased valuable forecasting capabilities with t
 The Baseline ARIMA, Tuned ARIMA, and SARIMA models excelled in capturing temporal dependencies. Although the model's forecasting may have been affected by other limitations.
 
 ***
-### Recommendations
+### 7. Recommendations and Next Steps
 * Based on the comprehensive analysis conducted using the provided dataset and
   considering the states of Pennsylvania, Carlifonia, and New york, below are some key recommendations:
 
@@ -146,13 +146,7 @@ The Baseline ARIMA, Tuned ARIMA, and SARIMA models excelled in capturing tempora
   
 In conclusion, Diversification, ROI analysis, risk assessment, and careful consideration of each city's unique attributes are crucial when making real estate investment decisions.
 
-***
-### Limitations
-* Our model was delimited by overfitting wich may have caused our forecasting slightly deviate from the correct forecasting.
-
-## **Next Steps**
-
-
+#### Next steps
 * An external dataset with economic indicators can be integrated, to provide a
   holistic view of factors influencing housing prices.
 * Augmenting the dataset with additional variables that might influence housing
@@ -160,3 +154,7 @@ In conclusion, Diversification, ROI analysis, risk assessment, and careful consi
   Housing market trends can change due to various unforeseen factors (e.g., economic downturns, pandemics, policy changes).
   
 * To explore other tunimg techniques to improve on performance of the model.
+
+***
+### Limitations
+* Our model was delimited by overfitting wich may have caused our forecasting slightly deviate from the correct forecasting.
