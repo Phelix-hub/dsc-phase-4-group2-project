@@ -2,7 +2,9 @@
 ![photo_realstate](images/real-estate.png)
 
 ### Executive Summary
-
+The project's goal was to provide actionable insights for U.S. property investments across different zip codes using data-driven methods. It utilized a comprehensive dataset from Zillow with 14,723 records spanning April 1996 to April 2018, showing property value trends from 118,299 𝑡𝑜 288,040. The dataset covered a wide value range, supporting trend analysis, regional benchmarking, and informed investment choices.
+Data preparation involved meticulous checks and transformations using Python libraries like pandas, numpy, and pmdarima. It encompassed data type validation, filling missing values, and eliminating duplicates. Key metrics like Return on Investment (ROI) were engineered, and the dataset was optimized for analysis. Thorough exploratory data analysis (EDA), including univariate, bivariate, and multivariate analyses, was conducted. Data stationarity was evaluated via the Dickey-Fuller test, and non-stationary data were made stationary through differencing.
+For modeling, the ARIMA model was chosen due to its ability to capture time-dependent patterns, handle nonlinearity and stationarity. The model underwent rigorous training and validation. Evaluation centered on Root Mean Square Error (RMSE) metrics, comparing forecasted and actual test data. Visualizations were created for intuitive comparison. RMSE values for each zip code quantified the model's predictive accuracy, aiding potential real estate investors. By combining meticulous data preparation, advanced modeling, and thorough evaluation, the project aimed to be a definitive guide for data-driven property investment strategies in the U.S.
 ***
 ### 1. Business Understanding
  #### [1.1 Background](##Background)
