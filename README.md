@@ -99,7 +99,7 @@ The p-values associated with the coefficients indicate whether they are statisti
 
 #### [Model Fitting](##Model-Fitting)
 An ARIMA model was fitted to multiple time series data corresponding to different zip codes.
-***
+
 #### [Model Evaluation](##Model-Evaluation)
 The model's performance was evaluated using Mean Squared Error. it was noted to have an MSE of 0.0036754150523843564. This tells us that our monthly returns would be off by 0.0037% if this model is used Which is good thing since it is not off by much.
 
@@ -107,6 +107,8 @@ The model's performance was evaluated using Mean Squared Error. it was noted to 
 Once the model was evaluated and deemed satisfactory, it was used to make future predictions as below.
 ![forecasting.png](images/forecasting.png)
 As can be seen on the graph, zipcode 15201 has the highest return on investment followed by zipcodes 11222 and 11216. zipcode 94301 has the lowest return on investment.
+
+***
 ### 6. Conclusion
 **Comparative Analysis of the Forecasting Models**
 The analysis presented a comprehensive comparison of three forecasting models: Autoregressive Integrated Moving Average (SARIMA), and Baseline ARIMA. Each model was assessed based on their predictive performance, statistical significance of coefficients, and alignment with historical trends. Below is a summary of the findings:
@@ -157,4 +159,4 @@ In conclusion, Diversification, ROI analysis, risk assessment, and careful consi
   Housing market trends can change due to various unforeseen factors (e.g., economic downturns, pandemics, policy changes).
   
 * To explore other tunimg techniques to improve on performance of the model.
-***
+**
