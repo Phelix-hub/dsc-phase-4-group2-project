@@ -67,11 +67,11 @@ As observed, the percentage of return on investents for the top ten states had a
 ### Data preprocessing for Modelling
 Prior to modeling, a thorough assessment of data stationarity was conducted using the following methods:
 
-1. Dickey-Fuller Test: The Dickey-Fuller test will be employed to assess the stationarity of the data. This statistical test helps determine if a unit root is present in the series, which is indicative of non-stationarity.
+1. Dickey-Fuller Test: The Dickey-Fuller test was employed to assess the stationarity of the data. This statistical test helps determine if a unit root is present in the series, which is indicative of non-stationarity.
 
-2. Rolling Mean Analysis: Additionally, a rolling mean analysis will be performed. This involves calculating the mean over a sliding window of observations. Fluctuations in the rolling mean indicate non-stationarity.
+2. Rolling Mean Analysis: Additionally, a rolling mean analysis was performed. This involved calculating the mean over a sliding window of observations. Fluctuations in the rolling mean indicate non-stationarity.
 
-In cases where the data is identified as non-stationary, a differencing technique will be applied. Differencing involves computing the difference between consecutive observations. This process helps transform the data into a stationary form, enabling more accurate modeling and analysis.
+Further,  a differencing technique was applied to get rid of non-stationarity. Differencing involved computing the difference between consecutive observations. This process helps transform the data into a stationary form, enabling more accurate modeling and analysis.
 
 
 ***
