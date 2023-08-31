@@ -53,7 +53,7 @@ Based on the bar graph above, this shows that Los Angeles is the most popular co
 ![price.png](images/price.png)
 The graph shows that the average housing price has been increasing steadily over the years, with a dip between 2007 and 2012. Since then, the average housing price has rebounded and continued to rise
 
-#### poperty value and distribution
+#### Property value and distribution
 ![property_value.png](images/property_value.png)
 
 Zipcode 10021,10011, 10014, 10128 in New York has properties with the highest value, followed by 94027 in California and 81611 in Colorado, and the other remaining Zipcodes range between 2 to 3 Million.
