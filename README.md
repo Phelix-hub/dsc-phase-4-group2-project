@@ -124,9 +124,12 @@ The SARIMA models displayed competitive predictive performance, with relatively 
 
 In conclusion, all two models showcased valuable forecasting capabilities with their unique strengths and limitations.
 The Baseline ARIMA, Tuned ARIMA, and SARIMA models excelled in capturing temporal dependencies. Although the model's forecasting may have been affected by other limitations.
+***
+### 7. Limitations
+* Our model was delimited by overfitting wich may have caused our forecasting slightly deviate from the correct forecasting.
 
 ***
-### 7. Recommendations and Next Steps
+### 8. Recommendations and Next Steps
 * Based on the comprehensive analysis conducted using the provided dataset and
   considering the states of Pennsylvania, Carlifonia, and New york, below are some key recommendations:
 
@@ -145,7 +148,7 @@ The Baseline ARIMA, Tuned ARIMA, and SARIMA models excelled in capturing tempora
   prospects, and economic growth when making investment decisions. Evaluate factors like infrastructure, amenities, and potential for future demand.
   
 In conclusion, Diversification, ROI analysis, risk assessment, and careful consideration of each city's unique attributes are crucial when making real estate investment decisions.
-
+***
 #### Next steps
 * An external dataset with economic indicators can be integrated, to provide a
   holistic view of factors influencing housing prices.
@@ -154,7 +157,4 @@ In conclusion, Diversification, ROI analysis, risk assessment, and careful consi
   Housing market trends can change due to various unforeseen factors (e.g., economic downturns, pandemics, policy changes).
   
 * To explore other tunimg techniques to improve on performance of the model.
-
 ***
-### Limitations
-* Our model was delimited by overfitting wich may have caused our forecasting slightly deviate from the correct forecasting.
